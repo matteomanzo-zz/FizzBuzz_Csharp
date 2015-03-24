@@ -3,31 +3,33 @@ using System;
 
 namespace FizzBuzz
 {
-	[TestFixture]
-	public class GameClassTest
-	{
-		[Test]
-		public void DivisibleBy15()
-		{
-			GameClass number = new GameClass ();
-			number.DivisibleBy15 (15);
-			Assert.AreEqual ("FizzBuzz", number.Shout);
-		}
+  [TestFixture]
+    public class GameClassTest
+    { 
 
-		[Test]
-		public void DivisibleBy5()
-		{
-			GameClass number = new GameClass();
-			number.DivisibleBy5 (5);
-			Assert.AreEqual ("Buzz", number.Shout);
-		}
+      [Test ()]
 
-		[Test]
-		public void DivisibleBy3()
-		{
-			GameClass number = new GameClass();
-			number.DivisibleBy3 (3);
-			Assert.AreEqual ("Fizz", number.Shout);
-		}
+      public void DivisibleBy15()
+      {
+	    GameClass number = new GameClass ();
+	    number.DivisibleBy15 (15);
+	    Assert.AreEqual ("FizzBuzz", number.Shout);
+      }
+
+      [Test ()]
+      public void DivisibleBy5()
+      {
+	    GameClass number = new GameClass ();
+	    number.DivisibleBy5 (5);
+	    Assert.AreEqual ("Buzz", number.Shout);
+      }
+
+      [Test ()]
+      public void DivisibleBy3()
+      {
+	    GameClass number = new GameClass ();
+	    number.DivisibleBy3 (3);
+	    Assert.AreEqual ("Fizz", number.Shout);
+       }
 	}
 }
