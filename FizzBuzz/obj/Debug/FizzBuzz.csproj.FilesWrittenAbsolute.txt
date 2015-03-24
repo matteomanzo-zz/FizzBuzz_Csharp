@@ -1,0 +1,6 @@
+/Users/Mimmo/Projects/FizzBuzz/FizzBuzz/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Mimmo/Projects/FizzBuzz/FizzBuzz/bin/Debug/nunit.framework.dll
+/Users/Mimmo/Projects/FizzBuzz/FizzBuzz/bin/Debug/FizzBuzz.dll.mdb
+/Users/Mimmo/Projects/FizzBuzz/FizzBuzz/bin/Debug/FizzBuzz.dll
+/Users/Mimmo/Projects/FizzBuzz/FizzBuzz/obj/Debug/FizzBuzz.dll
+/Users/Mimmo/Projects/FizzBuzz/FizzBuzz/obj/Debug/FizzBuzz.dll.mdb
