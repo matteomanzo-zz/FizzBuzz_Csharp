@@ -23,7 +23,7 @@ namespace FizzBuzz
 		}
 
 		[Test]
-		public void DivisibleBy5()
+		public void DivisibleBy3()
 		{
 			GameClass number = new GameClass();
 			number.DivisibleBy3 (3);

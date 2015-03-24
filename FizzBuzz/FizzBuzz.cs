@@ -20,6 +20,13 @@ namespace FizzBuzz
 			}
 		}
 
+		public void DivisibleBy3 (int num)
+		{
+			if (num % 3 == 0) {
+				shout = "Fizz";
+			}
+		}
+
 		public string Shout
 		{
 			get { return shout; }
