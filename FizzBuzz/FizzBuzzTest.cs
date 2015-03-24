@@ -21,5 +21,13 @@ namespace FizzBuzz
 			number.DivisibleBy5 (5);
 			Assert.AreEqual ("Buzz", number.Shout);
 		}
+
+		[Test]
+		public void DivisibleBy5()
+		{
+			GameClass number = new GameClass();
+			number.DivisibleBy3 (3);
+			Assert.AreEqual ("Fizz", number.Shout);
+		}
 	}
 }
