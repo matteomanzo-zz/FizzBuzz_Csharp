@@ -7,13 +7,18 @@ namespace FizzBuzz
 	public class GameClassTest
 	{
 		[Test]
-		public void Game()
+		public void DivisibleBy15()
+		{
+			GameClass number = new GameClass ();
+			number.DivisibleBy15 (15);
+			Assert.AreEqual ("FizzBuzz", number.Shout);
+		}
+
+		[Test]
+		public void DivisibleBy5()
 		{
 			GameClass number = new GameClass();
-			number.Game (15);
-			Assert.AreEqual("FizzBuzz", number.Shout);
-
-			number.Game (5);
+			number.DivisibleBy5 (5);
 			Assert.AreEqual ("Buzz", number.Shout);
 		}
 	}

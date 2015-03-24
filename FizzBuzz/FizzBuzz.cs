@@ -6,11 +6,17 @@ namespace FizzBuzz
 	{
 		private string shout;
 
-		public void Game (int num)
+		public void DivisibleBy15 (int num)
 		{
-			if (num % 15 == 0)
-			{
+			if (num % 15 == 0) {
 				shout = "FizzBuzz";
+			}
+		}
+			
+		public void DivisibleBy5 (int num)
+		{
+			if (num % 5 == 0) {
+				shout = "Buzz";
 			}
 		}
 
