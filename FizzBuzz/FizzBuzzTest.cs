@@ -12,6 +12,9 @@ namespace FizzBuzz
 			GameClass number = new GameClass();
 			number.Game (15);
 			Assert.AreEqual("FizzBuzz", number.Shout);
+
+			number.Game (5);
+			Assert.AreEqual ("Buzz", number.Shout);
 		}
 	}
 }
