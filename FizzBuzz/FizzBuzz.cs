@@ -23,6 +23,15 @@ namespace FizzBuzz
 				return false;
 			}
 		}
+
+		public bool IsDivisibleBy3 (int num)
+		{
+			if (num % 3 == 0) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 	
 
 		public string Main (int num)
