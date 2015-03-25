@@ -2,21 +2,28 @@
 
 namespace FizzBuzz
 {
-  public class GameClass
-  {
-    private bool divisible = false;
+	public class GameClass
+	{
+		public string say;
 
-	public void DivisibleBy15 (int num)
-    {
+		public bool IsDivisibleBy15 (int num)
+		{
 			if (num % 15 == 0) {
-				divisible = true;
-			} 
-    }
-	
-		public bool Divisible {
-			get { return divisible; }
+				return true;
+			} else {
+				return false;
+			}
 		}
+	
 
-  }
+		public string Main (int num)
+		{
+			if (IsDivisibleBy15 (num)) {
+				return say = "FizzBuzz";
+			} else {
+				return say = num.ToString();
+			}
+		}
+	}
 }
 
