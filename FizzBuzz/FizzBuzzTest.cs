@@ -36,6 +36,8 @@ namespace FizzBuzz
 			GameClass number = new GameClass ();
 			number.Main (30);
 			Assert.AreEqual("FizzBuzz", number.say);
+			Assert.AreNotEqual ("Buzz", number.say);
+			Assert.AreNotEqual ("Fizz", number.say);
 
 			number.Main (20);
 			Assert.AreEqual("Buzz", number.say);
