@@ -10,9 +10,8 @@ namespace FizzBuzz
 		public void IsDivisibleBy15()
 		{
 			GameClass number = new GameClass ();
-			number.IsDivisibleBy15 (45);
-			Assert.IsTrue(45 % 15 == 0);
-			Assert.IsFalse (45 % 15 != 0);
+			Assert.IsTrue(number.IsDivisibleBy15(45));
+			Assert.IsFalse(number.IsDivisibleBy15(50));
 		}
 //
 		[Test ()]
