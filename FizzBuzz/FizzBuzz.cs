@@ -14,6 +14,15 @@ namespace FizzBuzz
 				return false;
 			}
 		}
+
+		public bool IsDivisibleBy5 (int num)
+		{
+			if (num % 5 == 0) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 	
 
 		public string Main (int num)

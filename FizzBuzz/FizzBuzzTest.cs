@@ -7,13 +7,21 @@ namespace FizzBuzz
 	public class GameClassTest
 	{ 
 		[Test()]
-		public void IsDivisibleBy15()
+		public void IsDivisibleBy5()
 		{
 			GameClass number = new GameClass ();
 			Assert.IsTrue(number.IsDivisibleBy15(45));
 			Assert.IsFalse(number.IsDivisibleBy15(50));
 		}
-//
+
+		[Test()]
+		public void IsDivisibleBy15()
+		{
+			GameClass number = new GameClass ();
+			Assert.IsTrue(number.IsDivisibleBy5(10));
+			Assert.IsFalse(number.IsDivisibleBy5(7));
+		}
+
 		[Test ()]
 		public void Main()
 		{
