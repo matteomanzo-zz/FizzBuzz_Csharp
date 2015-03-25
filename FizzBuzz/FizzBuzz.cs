@@ -38,6 +38,10 @@ namespace FizzBuzz
 		{
 			if (IsDivisibleBy15 (num)) {
 				return say = "FizzBuzz";
+			} else if (IsDivisibleBy5 (num)) {
+				return say = "Buzz";
+			} else if (IsDivisibleBy3 (num)) {
+				return say = "Fizz";
 			} else {
 				return say = num.ToString();
 			}
