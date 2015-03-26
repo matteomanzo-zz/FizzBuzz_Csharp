@@ -2,7 +2,7 @@
 
 namespace FizzBuzz
 {
-	public class GameClass
+	public class FizzBuzz
 	{
 		public string say;
 
@@ -32,9 +32,8 @@ namespace FizzBuzz
 				return false;
 			}
 		}
-	
 
-		public string Main (int num)
+		public string Shout (int num)
 		{
 			if (IsDivisibleBy15 (num)) {
 				return say = "FizzBuzz";

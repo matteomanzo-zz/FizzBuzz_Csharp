@@ -1,16 +1,14 @@
 ﻿<Properties StartupItem="FizzBuzz/FizzBuzz.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FizzBuzz/FizzBuzzTest.cs">
-    <Files>
-      <File FileName="FizzBuzz/FizzBuzzTest.cs" Line="35" Column="4" />
-      <File FileName="FizzBuzz/FizzBuzz.cs" Line="29" Column="1" NotebookId="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True">
+        <State expanded="True">
           <Node name="FizzBuzz" expanded="True">
             <Node name="FizzBuzz" expanded="True">
-              <Node name="GameClassTest" expanded="True" />
+              <Node name="GameClassTest" expanded="True">
+                <Node name="IsDivisibleBy3" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

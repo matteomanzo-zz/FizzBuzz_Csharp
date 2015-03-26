@@ -4,12 +4,12 @@ using System;
 namespace FizzBuzz
 {
 	[TestFixture]
-	public class GameClassTest
+	public class FizzBuzzTest
 	{ 
 		[Test()]
 		public void IsDivisibleBy15()
 		{
-			GameClass number = new GameClass ();
+			FizzBuzz number = new FizzBuzz ();
 			Assert.IsTrue(number.IsDivisibleBy15(45));
 			Assert.IsFalse(number.IsDivisibleBy15(50));
 		}
@@ -17,7 +17,7 @@ namespace FizzBuzz
 		[Test()]
 		public void IsDivisibleBy5()
 		{
-			GameClass number = new GameClass ();
+			FizzBuzz number = new FizzBuzz ();
 			Assert.IsTrue(number.IsDivisibleBy5(10));
 			Assert.IsFalse(number.IsDivisibleBy5(7));
 		}
@@ -25,24 +25,24 @@ namespace FizzBuzz
 		[Test()]
 		public void IsDivisibleBy3()
 		{
-			GameClass number = new GameClass ();
+			FizzBuzz number = new FizzBuzz ();
 			Assert.IsTrue(number.IsDivisibleBy3(9));
 			Assert.IsFalse(number.IsDivisibleBy3(5));
 		}
 
 		[Test ()]
-		public void Main()
+		public void Shout()
 		{
-			GameClass number = new GameClass ();
-			number.Main (30);
+			FizzBuzz number = new FizzBuzz ();
+			number.Shout (30);
 			Assert.AreEqual("FizzBuzz", number.say);
 			Assert.AreNotEqual ("Buzz", number.say);
 			Assert.AreNotEqual ("Fizz", number.say);
 
-			number.Main (20);
+			number.Shout (20);
 			Assert.AreEqual("Buzz", number.say);
 
-			number.Main (18);
+			number.Shout (18);
 			Assert.AreEqual("Fizz", number.say);
 		}
 	}
