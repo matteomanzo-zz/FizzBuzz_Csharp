@@ -6,44 +6,78 @@ namespace FizzBuzz
 	[TestFixture]
 	public class FizzBuzzTest
 	{ 
-		[Test()]
-		public void IsDivisibleBy15()
+		FizzBuzz number;
+
+		[SetUp()]
+		public void Init()
 		{
-			FizzBuzz number = new FizzBuzz ();
+			number = new FizzBuzz ();
+		}
+
+		[Test()]
+		public void ItShouldcheckIfANumberIsDivisibleBy15()
+		{
 			Assert.IsTrue(number.IsDivisibleBy15(45));
 			Assert.IsFalse(number.IsDivisibleBy15(50));
 		}
 
 		[Test()]
-		public void IsDivisibleBy5()
+		public void ItShouldcheckIfANumberIsDivisibleBy5()
 		{
-			FizzBuzz number = new FizzBuzz ();
 			Assert.IsTrue(number.IsDivisibleBy5(10));
 			Assert.IsFalse(number.IsDivisibleBy5(7));
 		}
 
 		[Test()]
-		public void IsDivisibleBy3()
+		public void ItShouldcheckIfANumberIsDivisibleBy3()
 		{
-			FizzBuzz number = new FizzBuzz ();
 			Assert.IsTrue(number.IsDivisibleBy3(9));
 			Assert.IsFalse(number.IsDivisibleBy3(5));
 		}
 
 		[Test ()]
-		public void Shout()
+		public void ItShouldReturnTheRightExpressionsWhenNumberIsDivisibleBy15()
 		{
-			FizzBuzz number = new FizzBuzz ();
 			number.Shout (30);
 			Assert.AreEqual("FizzBuzz", number.say);
+		}
+
+		[Test()]
+		public void ItShouldNotReturnTheWrongExpressionsWhenNumberIsDivisibleBy15()
+		{
+			number.Shout (30);
 			Assert.AreNotEqual ("Buzz", number.say);
 			Assert.AreNotEqual ("Fizz", number.say);
+		}
 
+		[Test()]
+		public void ItShouldReturnTheRightExpressionsWhenNumberIsDivisibleBy5()
+		{
 			number.Shout (20);
-			Assert.AreEqual("Buzz", number.say);
+			Assert.AreEqual ("Buzz", number.say);
+		}
 
-			number.Shout (18);
+		[Test()]
+		public void ItShouldNotReturnTheWrongExpressionsWhenNumberIsDivisibleBy5()
+		{
+			number.Shout (20);
+			Assert.AreNotEqual ("FizzBuzz", number.say);
+			Assert.AreNotEqual ("Fizz", number.say);
+		}
+
+		[Test()]
+		public void ItShouldReturnTheRightExpressionsWhenNumberIsDivisibleBy3()
+		{
+			number.Shout (12);
 			Assert.AreEqual("Fizz", number.say);
+		}
+
+		[Test()]
+		public void ItShouldNotReturnTheWrongExpressionsWhenNumberIsDivisibleBy3()
+		{
+			number.Shout (12);
+			Assert.AreNotEqual ("FizzBuzz", number.say);
+			Assert.AreNotEqual ("Buzz", number.say);
 		}
 	}
 }

@@ -3,15 +3,7 @@
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="FizzBuzz" expanded="True">
-            <Node name="FizzBuzz" expanded="True">
-              <Node name="GameClassTest" expanded="True">
-                <Node name="IsDivisibleBy3" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
