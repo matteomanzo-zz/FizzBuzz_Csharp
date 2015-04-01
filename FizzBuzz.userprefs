@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="FizzBuzz/FizzBuzz.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True" />
-      </Pad>
-    </Pads>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FizzBuzz/FizzBuzzTest.cs">
+    <Files>
+      <File FileName="FizzBuzz/FizzBuzzTest.cs" Line="31" Column="11" />
+      <File FileName="FizzBuzz/FizzBuzz.cs" Line="6" Column="3" />
+      <File FileName="FizzBuzz/Program.cs" Line="16" Column="1" />
+    </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
