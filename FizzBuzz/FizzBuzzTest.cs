@@ -38,46 +38,40 @@ namespace FizzBuzz
 		[Test ()]
 		public void ItShouldReturnTheRightExpressionsWhenNumberIsDivisibleBy15()
 		{
-			number.Shout (30);
-			Assert.AreEqual("FizzBuzz", number.say);
+			Assert.AreEqual("FizzBuzz", number.Shout (30));
 		}
 
 		[Test()]
 		public void ItShouldNotReturnTheWrongExpressionsWhenNumberIsDivisibleBy15()
 		{
-			number.Shout (30);
-			Assert.AreNotEqual ("Buzz", number.say);
-			Assert.AreNotEqual ("Fizz", number.say);
+			Assert.AreNotEqual ("Buzz", number.Shout (30));
+			Assert.AreNotEqual ("Fizz", number.Shout (30));
 		}
 
 		[Test()]
 		public void ItShouldReturnTheRightExpressionsWhenNumberIsDivisibleBy5()
 		{
-			number.Shout (20);
-			Assert.AreEqual ("Buzz", number.say);
+			Assert.AreEqual ("Buzz", number.Shout (20));
 		}
 
 		[Test()]
 		public void ItShouldNotReturnTheWrongExpressionsWhenNumberIsDivisibleBy5()
 		{
-			number.Shout (20);
-			Assert.AreNotEqual ("FizzBuzz", number.say);
-			Assert.AreNotEqual ("Fizz", number.say);
+			Assert.AreNotEqual ("FizzBuzz", number.Shout (20));
+			Assert.AreNotEqual ("Fizz", number.Shout (20));
 		}
 
 		[Test()]
 		public void ItShouldReturnTheRightExpressionsWhenNumberIsDivisibleBy3()
 		{
-			number.Shout (12);
-			Assert.AreEqual("Fizz", number.say);
+			Assert.AreEqual("Fizz", number.Shout (12));
 		}
 
 		[Test()]
 		public void ItShouldNotReturnTheWrongExpressionsWhenNumberIsDivisibleBy3()
 		{
-			number.Shout (12);
-			Assert.AreNotEqual ("FizzBuzz", number.say);
-			Assert.AreNotEqual ("Buzz", number.say);
+			Assert.AreNotEqual ("FizzBuzz", number.Shout (12));
+			Assert.AreNotEqual ("Buzz", number.Shout (12));
 		}
 	}
 }
