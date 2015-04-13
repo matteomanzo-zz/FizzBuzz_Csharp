@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="FizzBuzz/FizzBuzz.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FizzBuzz/FizzBuzzTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FizzBuzz/ProgramTest.cs">
     <Files>
       <File FileName="FizzBuzz/FizzBuzzTest.cs" Line="31" Column="11" />
-      <File FileName="FizzBuzz/FizzBuzz.cs" Line="6" Column="3" />
-      <File FileName="FizzBuzz/Program.cs" Line="16" Column="1" />
+      <File FileName="FizzBuzz/FizzBuzz.cs" Line="1" Column="1" />
+      <File FileName="FizzBuzz/Program.cs" Line="1" Column="1" />
+      <File FileName="FizzBuzz/ProgramTest.cs" Line="24" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
